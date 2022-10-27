@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d0{
+            background-color:rgba(153, 0, 255, 0.534);
+            border: 3px black solid;
+            height: 100vh;
+            display: grid;
+            /* grid-template-columns: 300px 100px 350px 150px; */
+            /* grid-template-columns: auto 300px auto auto; */
+            /* grid-template-columns: 1fr 2fr 3fr 1fr; */
+            /* grid-template-columns: repeat(4,1fr 200px); */
+            grid-template-columns:repeat(4,1fr) ;
+            /* grid-template-rows: 300px 50px; */
+            gap: 20px;
+        }
+        .d0 div{
+            background-color: rgb(155, 148, 193);
+            border: 2px purple solid;
+        }
+        .d1{
+             /* grid-column: 1/3;
+            grid-row-start: 1;
+            grid-row-end: 3; */
+            /* grid-column: 2/span 3; */
+            /* grid-row: 1/span 3; */
+            grid-column-start: 1;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>grid</h1>
+    <div class="d0">
+        
+        <div class="d1">haaaai</div>
+        <!-- <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae delectus distinctio iusto temporibus consequatur animi nihil, mollitia fuga doloribus expedita, consequuntur unde esse ipsam officia aspernatur quam debitis enim quibusdam ab vel illo. Voluptas debitis, expedita ipsam labore sapiente ea id? Dignissimos hic a nemo tenetur, delectus vitae unde eveniet quod veniam incidunt error porro repellendus consequuntur corrupti molestias nulla. Explicabo dolorem praesentium dicta reiciendis, dolores odio minus officiis dignissimos voluptatibus facilis necessitatibus exercitationem suscipit quas optio ratione itaque quia numquam ipsa nobis voluptate quibusdam. Quasi, voluptatibus. At, iure quibusdam sed animi provident nam ratione impedit sunt eos odit excepturi.</div> -->
+        <div class="d2">kooooi</div>
+        <div class="d3">hooooooi</div>
+        <div class="d4">moooooooi</div>
+        <div class="d5">looooooi</div>
+        <div class="d5">nooooooi</div>
+    </div>
+
+</body>
+</html>

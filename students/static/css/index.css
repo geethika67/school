@@ -1,0 +1,35 @@
+.hoi{
+    color: chocolate;
+    height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2{
+    color: grey;
+    padding: 20;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: 200;
+    font-style: italic;
+    border-radius: 5px;
+    border-color: black;
+    border-style: dotted;
+   
+    
+}
+.div1  {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+    
+    
+}
+input{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+div,p,span{
+    color: aqua;
+}
+

@@ -1,0 +1,17 @@
+#no{
+    color: blueviolet;
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    /* position: absolute;
+    right: 100px; */
+    position: relative;
+    /* left: 100px; */
+    position: fixed;
+    border: 2px;
+
+
+    
+}
+
+

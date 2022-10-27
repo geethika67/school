@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/index.css'%}">
+    <style>
+        p{
+            color: blue;
+        }
+        .haai{
+            color: brown;
+        }
+        #nme{
+            color: cornflowerblue;
+        }
+        h1{
+            background-color: bisque;
+        }
+        a{
+            display: block;
+        }
+        p{
+            display: inline;
+
+            
+        }
+        div{
+            width: 200px;
+            height: 400px;
+            overflow: visible;
+            /* overflow:hidden */
+            /* overflow: scroll  ; */
+            overflow: auto;
+   
+        }
+        /* img{
+            opacity: 0.2;
+        } */
+        img:hover{
+            opacity: 0.2;
+        }
+
+    </style>
+</head>
+<body>
+    <div >
+    <h1 style="color:blue; font-family: 'Times New Roman', Times, serif;" >helloo</h1>
+    <p>haaaaaaaaaai</p>
+    <p class="haai" id="nme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, totam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit incidunt, consequuntur voluptates ab sint maxime eaque aliquid quaerat aspernatur voluptate quasi omnis veniam fugit officia error mollitia vel quae. Amet ipsum, suscipit blanditiis perferendis ipsam, consequuntur saepe asperiores eligendi voluptatum incidunt repellat nisi vel quisquam? Architecto ipsum eaque deleniti quasi animi officia vero iure vitae laudantium, voluptates ad eum in veritatis, dicta sed error earum eligendi, maiores suscipit culpa provident! Fugiat dolores blanditiis aspernatur laborum quod iure hic nisi suscipit voluptatibus praesentium eos atque inventore molestias sequi minima perferendis veritatis, eum dolore error at ullam, magni rem voluptatum. Eius, error?</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, maiores?</p>
+    <p class="haai">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, autem.</p>
+    <span class="hoi">helloooo</span>
+    <h2>haiii</h2>
+    <input type="text" placeholder="name">
+    <a href="">ghhg </a><a href="">ghh</a><a href="">hvcg</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ex?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, tempore?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, saepe!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, quas.</p>
+    
+    <img src="{% static 'imgs/1.jpg'%}" alt="">
+    
+</body>
+</html>
